@@ -120,7 +120,7 @@ Visibility Classes
     }
 }
 
-@media (max-width: 1088px) {
+@media (max-width: 719px) {
     .visible-for-small-only {
         display: block;
     }
@@ -146,10 +146,86 @@ Visibility Classes
                                 Hero
 *******************************************************************************/
 .hero-img {
-    background: url('C:/Users/spenc/OneDrive/Documents/portfolio/laravel/public/img/code-mixing-console.jpg');
+    background: url("/img/code-background.jpg");
+    background-position: center;
+    background-size: cover;
     width: 100%;
+    height: 400px;
 }
 
 .hero-img img {
     width: 100%;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    text-align: center;
+}
+
+.headings {
+    background-color: rgba(255,255,255,0.3);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.headings h1 {
+    font-size: 3.6em;
+}
+
+.mobile-heading{
+    display: inline;
+    text-align: center;
+}
+
+.close {
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+.desktop-heading {
+    width: 100%;
+}
+
+.desktop-nav, .mobile-nav {
+    background-color: #1f363d;
+    width: 100%;
+    margin: 0px;
+}
+
+.desktop-nav a, .mobile-nav a{
+    color: #cfe0c3;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+.desktop-nav li:hover {
+    background: #40798c;
+}
+
+.mobile-nav ul li {
+    display: block;
+}
+
+#open-mobile-menu-button {
+    display: inline;
+    text-align: center;
+    margin: 10px;
 }
