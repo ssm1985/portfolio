@@ -1,7 +1,7 @@
 <nav class="row hidden-xs desktop-nav">
     <ul class="column medium-12 large-12">
         <li><a href="/">Home</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="/posts">Blog</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
@@ -15,7 +15,7 @@
                 </button>
             </li>
             <li><a href="/">Home</a></li>
-            <li><a href="#">Blog</a></li>
+            <li><a href="/posts">Blog</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>

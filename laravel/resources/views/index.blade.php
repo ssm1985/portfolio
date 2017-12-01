@@ -11,6 +11,7 @@
         @include('header')
         @include('navigation')
         <div class="content-area flex-container">
+            @yield('content')
         </div>
 
 
