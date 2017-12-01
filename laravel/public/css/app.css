@@ -8615,8 +8615,12 @@ nav ul {
 
 nav li {
   display: inline;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-right: 0px;
   text-align: center;
+  margin: 0px;
 }
 
 .headings {
@@ -8657,11 +8661,16 @@ nav li {
   margin: 0px;
 }
 
+.desktop-nav {
+  padding-top: 15px;
+}
+
 .desktop-nav a,
 .mobile-nav a {
-  color: #cfe0c3;
+  color: #CFE0C3;
   font-size: 1.3em;
   font-weight: bolder;
+  padding: 15px;
 }
 
 .desktop-nav li:hover {
@@ -8670,6 +8679,13 @@ nav li {
 
 .mobile-nav ul li {
   display: block;
+}
+
+.desktop-nav-ul {
+  float: left;
+  margin: 0px;
+  height: 45px;
+  vertical-align: middle;
 }
 
 #open-mobile-menu-button {

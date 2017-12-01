@@ -1,5 +1,5 @@
 <nav class="row hidden-xs desktop-nav">
-    <ul class="column medium-12 large-12">
+    <ul class="medium-12 large-12 desktop-nav-ul">
         <li><a href="/">Home</a></li>
         <li><a href="/posts">Blog</a></li>
         <li><a href="/about">About</a></li>
