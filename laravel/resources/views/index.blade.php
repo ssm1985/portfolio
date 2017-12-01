@@ -10,7 +10,7 @@
     <body>
         @include('header')
         @include('navigation')
-        <div class="content-area flex-container">
+        <div class="content-area">
             @yield('content')
         </div>
 
