@@ -19,6 +19,7 @@
         @include('header')
         @include('navigation')
         <div class="content-area">
+            @include('messages')
             @yield('content')
         </div>
 
@@ -63,5 +64,10 @@
         closeButton.addEventListener('click', showMenuButton);
 
         </script>
+        <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace( 'article-ckeditor' );
+        </script>
     </body>
+    @include('footer')
 </html>
