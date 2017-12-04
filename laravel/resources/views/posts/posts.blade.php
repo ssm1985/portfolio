@@ -1,4 +1,4 @@
-@extends('index')
+@extends('shell')
 
 @section('content')
     <h1>Posts</h1>

@@ -1,4 +1,4 @@
-@extends('index')
+@extends('shell')
 
 @section('content')
     <a href="/posts" class="btn btn-default">Go Back</a>
