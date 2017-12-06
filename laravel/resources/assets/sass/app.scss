@@ -136,7 +136,7 @@ Visibility Classes
 }
 
 * {
-  font-family: 'Lato', Helvetica, sans-serif;
+  font-family: 'Roboto','Lato', Helvetica, sans-serif;
   color: #333447;
   line-height: 1.5;
   box-sizing: border-box;
@@ -145,6 +145,10 @@ Visibility Classes
 /*******************************************************************************
                                 Hero
 *******************************************************************************/
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Roboto','Lato', Helvetica, sans-serif;
+}
+
 .hero-img {
     background: url("/img/code-background.jpg");
     background-position: center;
@@ -270,4 +274,47 @@ nav li {
 
 em {
     font-style: italic;
+}
+
+.project {
+    height: 350px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.sicamous {
+    background: url("/img/MySicamousAdjusted.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid $primary-dark;
+}
+
+.portfolio {
+    background: url("/img/Assignment4Adjusted.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid $primary-dark;
+}
+
+.music {
+    background: url("/img/MusicStoreAdjusted.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid $primary-dark;
+}
+
+.rock-paper-scissors {
+    background: url("/img/rockpaperscissors.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 2px solid $primary-dark;
 }

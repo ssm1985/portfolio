@@ -13,8 +13,10 @@
 
 Route::get('/', 'HomePageController@index');
 Route::get('/contact', 'HomePageController@contact');
+Route::post('/contact', 'HomePageController@postContact');
 Route::get('/about', 'HomePageController@about');
 Route::get('/projects', 'HomePageController@projects');
+// Route::get('/send', 'MailController@index');
 
 Auth::routes();
 Route::resource('posts', 'PostsController');
