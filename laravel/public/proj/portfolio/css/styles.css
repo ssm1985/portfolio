@@ -1,0 +1,655 @@
+/*******************************************************************************
+                              Grid Setup
+*******************************************************************************/
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+
+.row {
+  width: 100%;
+}
+/*
+we will need to give the margin left right 1% to give us
+a 2% gutter
+*/
+.row .column {
+  float: left;
+  margin: 10px 1%;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+/*
+our percentages also need to be updated to account for the 1% margin
+*/
+
+.small-1 { width: 6.333333333333334%; }
+.small-2 { width: 14.666666666666668%; }
+.small-3 { width: 23%; }
+.small-4 { width: 31.333333333333336%; }
+.small-5 { width: 39.66666666666667%; }
+.small-6 { width: 48.00000000000001%; }
+.small-7 { width: 56.333333333333336%; }
+.small-8 { width: 64.66666666666667%; }
+.small-9 { width: 73%; }
+.small-10 { width: 81.33333333333333%; }
+.small-11 { width: 89.66666666666667%; }
+.small-12 { width: 98%; }
+
+
+@media only screen and (min-width: 720px) {
+    .medium-1 { width: 6.333333333333334%; }
+    .medium-2 { width: 14.666666666666668%; }
+    .medium-3 { width: 23%; }
+    .medium-4 { width: 31.333333333333336%; }
+    .medium-5 { width: 39.66666666666667%; }
+    .medium-6 { width: 48.00000000000001%; }
+    .medium-7 { width: 56.333333333333336%; }
+    .medium-8 { width: 64.66666666666667%; }
+    .medium-9 { width: 73%; }
+    .medium-10 { width: 81.33333333333333%; }
+    .medium-11 { width: 89.66666666666667%; }
+    .medium-12 { width: 98%; }
+}
+
+@media only screen and (min-width: 1040px) {
+    .large-1 { width: 6.333333333333334%; }
+    .large-2 { width: 14.666666666666668%; }
+    .large-3 { width: 23%; }
+    .large-4 { width: 31.333333333333336%; }
+    .large-5 { width: 39.66666666666667%; }
+    .large-6 { width: 48.00000000000001%; }
+    .large-7 { width: 56.333333333333336%; }
+    .large-8 { width: 64.66666666666667%; }
+    .large-9 { width: 73%; }
+    .large-10 { width: 81.33333333333333%; }
+    .large-11 { width: 89.66666666666667%; }
+    .large-12 { width: 98%; }
+}
+
+
+
+/* * * * * * * * * * * * * * * * * * *
+Visibility Classes
+* * * * * * * * * * * * * * * * * * */
+
+.visible-for-small-only {
+    display: block;
+}
+
+.visible-for-medium-and-up {
+    display: none;
+}
+
+.visible-for-large-and-up {
+    display: none;
+}
+
+.visible-for-medium-only {
+    display: none;
+}
+
+@media only screen and (min-width: 720px) {
+
+    .visible-for-medium-and-up {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1089px) {
+    .visible-for-large-and-up {
+        display: block;
+    }
+}
+
+@media (max-width: 1088px) {
+    .visible-for-small-only {
+        display: block;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1088px) {
+    .visible-for-medium-only {
+        display: inline-block;
+        text-align: right;
+        vertical-align: middle;
+        margin-top: 8px;
+    }
+}
+/*
+Colors:
+Light Brown: #DA805B rgb(218,128,91)
+Blue: #353FA7 rgba(53,63,167)
+Dark Blue: #2D368D rgb(45,54,141)
+Light Green: #9AE074 rgb(154,224,116)
+Brown: #8D492D rgb(141,73,45)
+Dark Brown: #3B2107 rgb(59,33,7)
+*/
+
+* {
+  font-family: 'Lato', Helvetica, sans-serif;
+  color: #333447;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+/*******************************************************************************
+                              Header
+*******************************************************************************/
+
+header {
+  background: #3B2107;
+  width: 100%;
+  /*position: absolute;*/
+  /*height: 100px;*/
+
+}
+
+header .logo-container {
+    display: inline-block;
+    text-align: center;
+}
+
+header .logo {
+  display: inline-block;
+  text-align: center;
+
+}
+
+header .logo img{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav {
+    display: inline;
+    text-align: center;
+}
+
+nav .main-nav{
+  display: inline-block;
+  text-align: center;
+  background: white;
+  margin-top: 14px;
+  border-radius: 5px;
+}
+
+.main-nav ul {
+  padding: 0;
+  background: rgba(218,128,91, 0.1);
+  margin: 0;
+  padding: 16px 10px 16px 10px;
+}
+
+nav .main-nav-buttons {
+  background: white;
+  border: 1px solid #8D492D;
+  border-radius: 5px;
+  padding: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 35px;
+  width: 140px;
+  vertical-align: middle;
+  box-shadow: 3px 3px 5px #8D492D;
+}
+
+nav .main-nav-buttons:hover {
+    background: #DA805B;
+}
+
+nav .main-nav-buttons:active {
+    box-shadow: 0 0 0 rgba(218,128,91, 0.1);
+}
+
+.main-nav-buttons a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+nav .menu {
+    position: fixed;
+    /*position: relative;*/
+    display: inline-block;
+    height: 225px;
+    width: 160px;
+    background: #8D492D;
+    margin: 0;
+    padding: 5px;
+    transition: .2s;
+}
+
+
+
+.menu ul {
+    display: inline-block;
+    padding: 0;
+    list-style-type: none;
+}
+
+.open-icon {
+    display: inline-block;
+    /*float: right;*/
+}
+
+.close-icon {
+    display: inline-block;
+    float: right;
+}
+
+.open {
+    top: 77px;
+    right: 0;
+}
+
+.close {
+    top: 77px;
+    right: -160px;
+}
+
+.mobile-nav-buttons {
+    background: white;
+    border: 1px solid #8D492D;
+    border-radius: 5px;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 35px;
+    width: 140px;
+    vertical-align: middle;
+    box-shadow: 3px 3px 5px #8D492D;
+}
+
+/*******************************************************************************
+                              Hero
+*******************************************************************************/
+
+.hero {
+  background: url("../img/code-and-coffee.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.hero .wrapper h1 {
+  margin: 0;
+}
+
+.hero .hero-content {
+  background: rgba(218,128,91, 0.8);
+  border-radius: 5px;
+  margin-top: 10%;
+  border: 1px solid #8D492D;
+  text-align: center;
+}
+
+.hero .hero-content h1, .hero .hero-content h3 {
+  color: black;
+  padding: 5px;
+}
+
+.hero .hero-content h3 {
+    text-align: center;
+}
+
+.hero .hero-content button {
+    border: 1px solid #8D492D;
+    background: #8D492D;
+    border-radius: 5px;
+    display: inline-block;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.hero .hero-content button a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-content button:hover {
+    box-shadow: 2px 2px grey;
+}
+
+.hero-content button:active {
+    box-shadow: 2px 2px black;
+}
+/*******************************************************************************
+                        Hero on Audio Page
+*******************************************************************************/
+.hero-audio {
+  background: url("../img/mixing-board.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+
+
+/*******************************************************************************
+                              Main
+*******************************************************************************/
+main {
+    background: rgba(218,128,91, 0.1);
+}
+ .icon-container i {
+     color: black;
+ }
+.icon-container {
+    text-align: center;
+    border: 2px solid #8D492D;
+    border-radius: 100px;
+    padding: 10px 0 10px 0;
+    background: white;
+    box-shadow: 3px 3px 10px #8D492D;
+    transition: .2s;
+}
+
+.icon-container:hover {
+    background: #DA805B;
+
+}
+
+.icon-container:active {
+    box-shadow: 0 0 0 white;
+}
+
+.icon-container h4 {
+    display: inline;
+    color: black;
+}
+.icon-links {
+    text-decoration: none;
+}
+
+/*******************************************************************************
+                              Main Audio Page
+*******************************************************************************/
+main {
+    background: rgba(218,128,91, 0.1);
+}
+
+main img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border-radius: 50px;
+    margin: 9px;
+    border: 2px solid #8D492D;
+    transition: .2s;
+}
+
+main img:hover {
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #DA805B;
+}
+
+main img:active {
+    border-radius: 50px;
+    box-shadow: 0 0 0 white;
+}
+
+main .content-container {
+    padding-left: 5px;
+}
+/*******************************************************************************
+                              Portfolio
+*******************************************************************************/
+
+.website-container h1, .music-container h1 {
+  text-align: center;
+}
+
+.website-container{
+  width: 100%;
+}
+
+.project-container .slider {
+  padding: 0 50px 0 50px;
+  width: 100%;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: .2s;
+  transform: translateY(300px);
+  text-align: left;
+}
+
+.project-container:hover .slider {
+  transform: translateY(0px);
+  border-radius: 0;
+}
+
+.slider h4, .slider h5 {
+  text-align: center;
+  color: black;
+  font-size: 1.1em;
+  line-height: 20px;
+}
+
+
+.project-container {
+  text-align: center;
+  overflow: hidden;
+  height: 400px;
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px black;
+}
+
+.project-container img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+}
+
+.project-container a {
+  text-decoration: none;
+}
+
+.sicamous {
+  background: url("../img/my-sicamous.JPG");
+  width: 100%;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.assignment-2 {
+  background: url("../img/assignment-2.JPG");
+  width: 100%;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+audio {
+  width: 100%;
+}
+
+.music-container h2 {
+  text-align: center;
+}
+
+/*******************************************************************************
+                              Contact
+*******************************************************************************/
+.contact-column {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.contact-page-title h1 {
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.contact-form label {
+  margin: 20px;
+  font-weight: bold;
+  display: inline-block;
+  width: 140px;
+}
+
+.contact-form textarea {
+    width: 295px;
+    height: 300px;
+    resize: none;
+}
+
+.contact-form button {
+    margin-left: 31%;
+    margin-top: 10px;
+}
+
+.contact-form .message-label {
+  vertical-align: top;
+  margin-top: 0;
+}
+
+/*******************************************************************************
+                              Web Development
+*******************************************************************************/
+.web-dev-hero {
+    background: url("../img/html-code.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.portfolio-button-container {
+  text-align: center;
+}
+
+.web-dev-button {
+    display: inline-block;
+    width: 300px;
+}
+
+/*******************************************************************************
+                              Blog Page
+*******************************************************************************/
+.blog-pic-container {
+  float: right;
+  display: inline-block;
+  /*width: 45%;*/
+  float: right;
+}
+
+.blog-pic-container p {
+  float: right;
+  font-weight: bold;
+  width: 100%;
+}
+
+.george-costanza {
+  background: url("../img/george-costanza.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  /*float: right;*/
+  box-shadow: 3px 3px 10px black;
+}
+/*******************************************************************************
+                              Work Experience
+*******************************************************************************/
+.bowcycle {
+  background: url("../img/bow-cycle.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 90%;
+}
+
+.cmast {
+  background: url("../img/cmast.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 90%;
+}
+
+.calgary-recording {
+  background: url("../img/calgary-recording-logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 90%;
+}
+
+/*******************************************************************************
+                              Education
+*******************************************************************************/
+.apra {
+  background: url("../img/apra.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 90%;
+}
+
+.uofc {
+  background: url("../img/Schulich-engineering.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 90%;
+}
+.codecademy {
+  background: url("../img/codecademy.png");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 90%;
+}
+
+.sait {
+  background: url("../img/sait-logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 90%;
+}
+
+/*******************************************************************************
+                              Footer
+*******************************************************************************/
+footer {
+  background: #8D492D;
+  height: 100px;
+}
+
+footer ul {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 33px;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a i {
+    color: black;
+}

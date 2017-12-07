@@ -281,6 +281,7 @@ em {
     width: 100%;
     display: inline-block;
     text-align: center;
+    overflow: hidden;
 }
 
 .sicamous {
@@ -317,4 +318,38 @@ em {
     background-size: contain;
     background-repeat: no-repeat;
     border: 2px solid $primary-dark;
+}
+
+.project .slider {
+    padding: 0 50px 0 50px;
+    width: 100%;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: .2s;
+    transform: translateY(300px);
+    text-align: left;
+}
+
+.project:hover .slider {
+    transform: translateY(0px);
+    border-radius: 0;
+    text-decoration: none;
+}
+
+.slider h4 {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.slider p {
+    font-weight: bold;
+}
+
+.project a {
+    text-decoration: none;
+}
+
+.slider ul {
+    list-style: initial;
 }
