@@ -1,6 +1,8 @@
 <footer class="row footer-class">
     <div class="column large-4 medium-4 small-12 footer-block">
-        <a href="/login">Login</a>
+        @if (!Auth::user())
+            <a href="/login">Login</a>
+        @endif
     </div>
     <div class="column large-4 medium-4 small-12 footer-block">
         <a href="//www.iubenda.com/privacy-policy/8277837" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a>

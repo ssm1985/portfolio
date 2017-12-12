@@ -8,11 +8,13 @@ use Illuminate\Support\Facades\Mail;
 class HomePageController extends Controller
 {
     public function index(){
-        return view ('index');
+        $title = 'Calgary Web Developer';
+        return view ('index')->with('title', $title);
     }
 
     public function contact(){
-        return view('contact');
+        $title = 'Contact';
+        return view('contact')->with('title', $title);
     }
 
     public function postContact(Request $request){
@@ -34,10 +36,12 @@ class HomePageController extends Controller
     }
 
     public function about(){
-        return view('about');
+        $title = 'About';
+        return view('about')->with('title', $title);
     }
 
     public function projects(){
-        return view('projects');
+        $title = 'Projects';
+        return view('projects')->with('title', $title);
     }
 }

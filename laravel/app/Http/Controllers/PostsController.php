@@ -16,8 +16,13 @@ class PostsController extends Controller
     {
         // $posts = Post::orderBy('title', 'desc')->get();
         // $posts = Post::orderBy('title', 'desc')->take(1)->get();
+        $title = 'Blog';
         $posts = Post::orderBy('created_at', 'desc')->paginate(5);
-        return view('posts.posts')->with('posts', $posts);
+        // return view('posts.posts')->with('posts', $posts);
+        return view('posts.posts',[
+            'title'=>$title,
+            'posts'=>$posts
+        ]);
     }
 
     /**
@@ -27,7 +32,8 @@ class PostsController extends Controller
      */
     public function create()
     {
-        return view('posts.create');
+        $title = 'Create Post';
+        return view('posts.create')->with('title', $title);
     }
 
     /**
@@ -71,7 +77,11 @@ class PostsController extends Controller
     public function show($id)
     {
         $post = Post::find($id);
-        return view('posts.show')->with('post',$post);
+        $title = $post->title;
+        return view('posts.show',[
+            'title'=>$title,
+            'post'=>$post
+            ]);
     }
 
     /**
@@ -83,7 +93,11 @@ class PostsController extends Controller
     public function edit($id)
     {
         $post = Post::find($id);
-        return view('posts.edit')->with('post',$post);
+        $title = 'Edit - '.$post->title;
+        return view('posts.edit',[
+            'title'=>$title,
+            'post'=>$post
+            ]);
     }
 
     /**
@@ -103,7 +117,7 @@ class PostsController extends Controller
         $post->title = $request->input('title');
         $post->body = $request->input('body');
         $post->save();
-        return redirect('/posts')->with('success', 'Post Updated');
+        return redirect('/posts'.'/'.$post->id)->with('success', 'Post Updated');
     }
 
     /**

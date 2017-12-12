@@ -302,8 +302,8 @@ em {
     border: 2px solid $primary-dark;
 }
 
-.music {
-    background: url("/img/MusicStoreAdjusted.jpg");
+.hitbeats {
+    background: url("/img/hitbeats-screenshot.jpg");
     height: 100%;
     background-position: center;
     background-size: contain;
@@ -318,6 +318,15 @@ em {
     background-size: contain;
     background-repeat: no-repeat;
     border: 2px solid $primary-dark;
+}
+
+.laravel {
+  background: url("/img/LaravelProjectResized.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid #1f363d;
 }
 
 .project .slider {
@@ -352,4 +361,23 @@ em {
 
 .slider ul {
     list-style: initial;
+}
+
+.logged-in-container {
+    width: 100%;
+}
+
+.logged-in .left div{
+    display: inline;
+    text-align: left;
+}
+
+.logged-in .right {
+    display: inline;
+    // width: 150px;
+    text-align: right;
+}
+
+.logged-in a {
+    padding: 10px;
 }

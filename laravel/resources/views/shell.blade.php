@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="/css/app.css">
-        <title>Spencer McLeod | Calgary Web Developer</title>
+        <title>Spencer McLeod | {{$title}}</title>
         <script>
         $(document).ready(function(){
             $("button").click(function(){
@@ -18,6 +18,26 @@
         </script>
     </head>
     <body>
+        @if(Auth::user())
+            <div class="logged-in row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 left">
+                    <div class="logged-in-container">
+                        <p><strong>Hello, {{ Auth::user()->name }}.</strong></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 right">
+                    <a href="/posts/create">Create Post</a>
+                    <a href="{{ route('logout') }}"
+                        onclick="event.preventDefault();
+                                 document.getElementById('logout-form').submit();">
+                        Logout
+                    </a>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        {{ csrf_field() }}
+                    </form>
+                </div>
+            </div>
+        @endif
         @include('header')
         @include('navigation')
         <div class="content-area">

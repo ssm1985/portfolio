@@ -8753,8 +8753,8 @@ em {
   border: 2px solid #1f363d;
 }
 
-.music {
-  background: url("/img/MusicStoreAdjusted.jpg");
+.hitbeats {
+  background: url("/img/hitbeats-screenshot.jpg");
   height: 100%;
   background-position: center;
   background-size: contain;
@@ -8764,6 +8764,15 @@ em {
 
 .rock-paper-scissors {
   background: url("/img/rockpaperscissors.jpg");
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid #1f363d;
+}
+
+.laravel {
+  background: url("/img/LaravelProjectResized.jpg");
   height: 100%;
   background-position: center;
   background-size: contain;
@@ -8806,5 +8815,23 @@ em {
 
 .slider ul {
   list-style: initial;
+}
+
+.logged-in-container {
+  width: 100%;
+}
+
+.logged-in .left div {
+  display: inline;
+  text-align: left;
+}
+
+.logged-in .right {
+  display: inline;
+  text-align: right;
+}
+
+.logged-in a {
+  padding: 10px;
 }
 
