@@ -1,0 +1,90 @@
+.microwave {
+  background-color: black;
+  height: 240px;
+  width: 130px;
+  padding: 20px;
+  float: right;
+  margin-right: 25px;
+  margin-top: 50px;
+  background-color: #2f302f;
+  border-radius: 40px;
+}
+
+.cd{
+  background: url("./cd.gif");
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 390px;
+  margin-right: 10px;
+  margin-left: 50px;
+  position: absolute;
+  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.door {
+  background: black;
+  height: 360px;
+  width: 400px;
+  position: relative;
+  border-radius: 0px;
+  opacity: .6;
+}
+
+
+#txtNumber {
+  background-color: #ddd;
+  margin: 40px 10px 20px 0px;
+  width: 140px;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+
+}
+
+.button {
+  background: #ddd;
+  height: 25px;
+  width: 25px;
+  font-size: 15px;
+  background-color: black;
+  color: #adadad;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.stopButton, .startButton, .clearButton {
+  background: #ddd;
+  height: 25px;
+  width: 45px;
+  font-family: "arial", sans-serif;
+}
+
+.stopButton {
+  background-color: black;
+  color: red;
+  font-color: red;
+  float: right;
+}
+
+.startButton {
+  background-color: black;
+  color: green;
+  float: right;
+}
+
+.clearButton {
+  height: 50px;
+  float: right;
+  background-color: black;
+  color: white;
+}
+
+.bigmicrowave {
+  width: 700px;
+  height: 400px;
+  background-color: black;
+  border-radius: 15px;
+}

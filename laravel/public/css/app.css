@@ -8775,6 +8775,15 @@ em {
   border: 2px solid #1f363d;
 }
 
+.microwave {
+  background: url("/img/microwave.png");
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid #1f363d;
+}
+
 .laravel {
   background: url("/img/LaravelProjectResized.jpg");
   height: 100%;
@@ -8791,6 +8800,10 @@ em {
   background-size: contain;
   background-repeat: no-repeat;
   border: 2px solid #1f363d;
+}
+
+.filler {
+  height: 200px;
 }
 
 .project .slider {
@@ -8812,6 +8825,15 @@ em {
   text-decoration: none;
 }
 
+@media (max-width: 1366px) {
+  .project .slider {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    border-radius: 0;
+    text-decoration: none;
+  }
+}
+
 .slider h4 {
   text-align: center;
   font-weight: bold;
@@ -8828,6 +8850,7 @@ em {
 
 .slider ul {
   list-style: initial;
+  font-size: 1.2em;
 }
 
 .logged-in-container {
@@ -8848,9 +8871,56 @@ em {
   padding: 10px;
 }
 
+.home li {
+  list-style-type: circle;
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
 .home-list li {
   list-style-type: circle;
   font-size: 1.2em;
   margin-left: 10px;
+}
+
+#register-page {
+  text-align: center;
+}
+
+.post-content li {
+  list-style-type: circle;
+  margin-left: 25px;
+  font-size: 1em;
+}
+
+.home-image {
+  margin-top: 22px;
+  background: url("/img/spencerdrums.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+.home-content span {
+  text-decoration: line-through;
+}
+
+.home-content {
+  font-size: 1.2em;
+}
+
+.twitter iframe {
+  display: inline;
+}
+
+.twitter {
+  text-align: center;
+}
+
+.place-holder {
+  width: 100%;
+  height: 22px;
 }
 

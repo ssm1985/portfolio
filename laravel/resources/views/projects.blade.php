@@ -53,15 +53,15 @@
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="project rock-paper-scissors">
-                <a href="/proj/rock-paper-scissors/Assignment3.html">
+            <div class="project microwave">
+                <a href="/proj/microwave/microstyle.html">
                     <div class="slider">
-                        <h4>Rock, Paper, Scissors, Dynamite</h4>
+                        <h4>Microwave Timer</h4>
                         <p>Details...</p>
                         <br><br><br>
                         <ul>
-                            <li>First project using JavaScript to build a game.</li>
-                            <li>jQuery used for results box.</li>
+                            <li>Group project to build a calculator & microwave using JavaScript.</li>
+                            <li>I was responsible for making the timer function correctly.</li>
                         </ul>
                     </div>
                 </a>
@@ -78,10 +78,9 @@
                         <br><br><br>
                         <ul>
                             <li>Built using Laravel framework.</li>
-                            <li>Blog format.</li>
-                            <li>Create, edit, & delete posts once logged in.</li>
-                            <li>Login/Logout capabilities.</li>
-                            <li>jQuery & JavaScript used on mobile menu.</li>
+                            <li>Blog format with authentication.</li>
+                            <li>Create, edit, & delete posts.</li>
+                            <li>jQueary and JavaScript</li>
                         </ul>
                     </div>
                 </a>
@@ -102,6 +101,29 @@
                     </div>
                 </a>
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-lg-3 filler hidden-xs hidden-sm">
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="project rock-paper-scissors">
+                <a href="/proj/rock-paper-scissors/Assignment3.html">
+                    <div class="slider">
+                        <h4>Rock, Paper, Scissors, Dynamite</h4>
+                        <p>Details...</p>
+                        <br><br><br>
+                        <ul>
+                            <li>First project using JavaScript to build a game.</li>
+                            <li>jQuery used for results box.</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-3 col-lg-3 filler hidden-xs hidden-sm">
+
         </div>
     </div>
 @endsection

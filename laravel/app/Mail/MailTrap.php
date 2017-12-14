@@ -28,6 +28,8 @@ class MailTrap extends Mailable
      */
     public function build()
     {
+        // dd($this->view('emails.contact')->to('spencer.s.mcleod@gmail.com'));
         return $this->view('mail')->to('spencer.s.mcleod@gmailcom');
+
     }
 }

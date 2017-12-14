@@ -28,6 +28,7 @@ class HomePageController extends Controller
             'subject'=>$request->subject,
             'bodyMessage'=>$request->message
         );
+
         Mail::send('emails.contact', $data, function($message) use ($data){
             $message->from($data['email']);
             $message->to('spencer.s.mcleod@gmail.com');
