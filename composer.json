@@ -55,8 +55,5 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
-    },
-    "require": {
-        "google/apiclient": "^2.0"
     }
 }
