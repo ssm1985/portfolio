@@ -20,7 +20,7 @@ class HomePageController extends Controller
     public function postContact(Request $request){
         $this->validate($request, [
             'email'=>'required|email',
-            'message'=>'min:10',
+            'message'=>'min:1',
             'subject'=>'min:3'
         ]);
         $data = array(
@@ -34,6 +34,8 @@ class HomePageController extends Controller
             $message->to('spencer.s.mcleod@gmail.com');
             $message->subject($data['subject']);
         });
+        $title = 'Thank You';
+        return view('thankyou')->with('title', $title);
     }
 
     public function about(){
@@ -44,5 +46,10 @@ class HomePageController extends Controller
     public function projects(){
         $title = 'Projects';
         return view('projects')->with('title', $title);
+    }
+
+    public function thankyou(){
+      $title = 'Thank You';
+      return view('thankyou')->with('title', $title);
     }
 }
