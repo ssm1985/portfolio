@@ -4,6 +4,43 @@
     <h1>Projects</h1>
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="project laravel">
+                <a href="#">
+                    <div class="slider">
+                        <h4>SpencerMcLeod.com</h4>
+                        <p>Details...</p>
+                        <br><br><br>
+                        <ul>
+                            <li>Built using Laravel framework.</li>
+                            <li>Blog format with authentication.</li>
+                            <li>Create, edit, & delete posts.</li>
+                            <li>jQueary and JavaScript</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="project domainbrains-search">
+                <a href="http://www.search.domainbrains.com">
+                    <div class="slider">
+                        <h4>Search.DomainBrains.com</h4>
+                        <p>Details...</p>
+                        <br><br><br>
+                        <ul>
+                            <li>NOTE: Still in development & testing phase</li>
+                            <li>Meteor JS Framework</li>
+                            <li>Hosted on AWS EC2 with MongoDB hosted at mLab.com</li>
+                            <li>Admin can add available domain names & keywords</li>
+                            <li>Users can search available domains based on keywords</li>
+                        </ul>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="project sicamous">
                 <a href="https://www.mysicamous.com">
                     <div class="slider">
@@ -70,23 +107,6 @@
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <div class="project laravel">
-                <a href="#">
-                    <div class="slider">
-                        <h4>SpencerMcLeod.com</h4>
-                        <p>Details...</p>
-                        <br><br><br>
-                        <ul>
-                            <li>Built using Laravel framework.</li>
-                            <li>Blog format with authentication.</li>
-                            <li>Create, edit, & delete posts.</li>
-                            <li>jQueary and JavaScript</li>
-                        </ul>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="project acupuncture">
                 <a href="http://www.sicamousacupuncture.com">
                     <div class="slider">
@@ -102,11 +122,6 @@
                 </a>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-3 col-lg-3 filler hidden-xs hidden-sm">
-
-        </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="project rock-paper-scissors">
                 <a href="/proj/rock-paper-scissors/Assignment3.html">
@@ -121,9 +136,6 @@
                     </div>
                 </a>
             </div>
-        </div>
-        <div class="col-md-3 col-lg-3 filler hidden-xs hidden-sm">
-
         </div>
     </div>
 @endsection

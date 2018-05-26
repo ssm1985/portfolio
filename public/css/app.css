@@ -8748,6 +8748,15 @@ em {
   border: 2px solid #1f363d;
 }
 
+.domainbrains-search {
+  background: url("../img/search-domainbrains.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .portfolio {
   background: url("/img/Assignment4Adjusted.jpg");
   height: 100%;
@@ -8923,4 +8932,3 @@ em {
   width: 100%;
   height: 22px;
 }
-

@@ -467,6 +467,15 @@ main .content-container {
   background-position: center;
 }
 
+.domainbrains-search {
+  background: url("../img/search-domainbrains.jpg");
+  width: 100%;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .assignment-2 {
   background: url("../img/assignment-2.JPG");
   width: 100%;
