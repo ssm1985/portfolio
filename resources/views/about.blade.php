@@ -16,13 +16,15 @@
                     <ul class="home-list">
                         <li>It's a stepping stone to future goals</li>
                         <li>Expand on previous experience, fill in some gaps, and get a sense of direction on what else to learn</li>
-                        <li>Aquire the credibility that comes with certification</li>
-                        <li>Programming is a skill that is increasing in demand</li>
+                        <li>Aquire the credibility that comes with certification & experience</li>
+                        <li>Programming is a skill that is increasingly in demand</li>
                         <li>Job and freelancing opportunities</li>
+                        <li>Possiblities to work remotely at times</li>
                         <li>I like to talk nerdy</li>
                     </ul>
                 </div>
                 <div id="tabs-2">
+                  <h4>SAIT Web Developer Fast-Track (Sept. 2017 - Dec. 2017):</h4>
                     <ul class="home-list">
                         <li>Applying JavaScript and an introduction to common JS libraries & frameworks</li>
                         <li>Responsive design</li>
@@ -33,22 +35,28 @@
                         <li>Introduction to Google Cloud & AWS</li>
                         <li>...and much more...</li>
                     </ul>
+                  <h4>ElToro.com Internship - Louisville, KY, USA (Jan. 2018 - April 2018):</h4>
+                    <ul class="home-list">
+                        <li>Extensive use of full stack web development tools including Meteor JS, React JS, Node JS, Git, MongoDB, Robo 3T, and Bootstrap</li>
+                        <li>Required to work with many various NPM packages including ReactTable, Vazco Uniforms, and Simple Schema</li>
+                        <li>Ubuntu</li>
+                        <li>...and much more...</li>
+                    </ul>
                 </div>
                 <div id="tabs-3">
                     <ul class="home-list">
                         <li>C/C++</li>
                         <li>SEO</li>
-                        <li>Domain names</li>
+                        <li>Domain names as they relate to marketing & business as opposed to I.T.</li>
                         <li>Audio production</li>
-                        <li>Electrical engineering background</li>
+                        <li>BSc. in Electrical Engineering (University of Calgary - 2015)</li>
                     </ul>
                 </div>
                 <div id="tabs-4">
                     <ul class="home-list">
-                        <li>Gain valuable work experience with entrepreneurial minded people developing online based platforms </li>
+                        <li>Gain valuable work experience with entrepreneurial minded people developing online based platforms</li>
                         <li>Develop premium domains in my portfolio into revenue generating businesses</li>
-                        <li>Be entirely self employed</li>
-                        <li>Not have to touch a single line of code within 5 to 10 years</li>
+                        <li>Cover (almost) every Tool song on the drums and post it on YouTube</li>
                         <li>Buy property in Sicamous B.C.</li>
                         <li>Be alive long enough to see the Oilers win the Stanley Cup again</li>
                     </ul>
