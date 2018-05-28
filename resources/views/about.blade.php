@@ -14,8 +14,8 @@
                 </ul>
                 <div id="tabs-1">
                     <ul class="home-list">
-                        <li>It's a stepping stone to future goals</li>
-                        <li>Expand on previous experience, fill in some gaps, while continuing to learn</li>
+                        <li>A stepping stone to future goals</li>
+                        <li>Expand on previous experience and fill in some gaps while continuing to learn</li>
                         <li>Develop the credibility that comes with certification & experience</li>
                         <li>Programming is a skill that is increasingly in demand</li>
                         <li>Job and freelancing opportunities</li>

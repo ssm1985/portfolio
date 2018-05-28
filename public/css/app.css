@@ -8750,8 +8750,7 @@ em {
 
 .domainbrains-search {
   background: url("../img/search-domainbrains.jpg");
-  width: 100%;
-  height: 400px;
+  height: 100%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
