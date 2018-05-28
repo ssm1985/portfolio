@@ -8755,6 +8755,7 @@ em {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  border: 2px solid #1f363d;
 }
 
 .portfolio {
@@ -8918,6 +8919,10 @@ em {
 
 .home-content {
   font-size: 1.2em;
+}
+
+.home-list {
+  list-style-type: circle;
 }
 
 .twitter iframe {

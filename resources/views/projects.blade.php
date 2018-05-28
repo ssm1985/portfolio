@@ -12,6 +12,7 @@
                         <br><br><br>
                         <ul>
                             <li>Built using Laravel framework.</li>
+                            <li>Hosted on AWS Elastic Beanstalk</li>
                             <li>Blog format with authentication.</li>
                             <li>Create, edit, & delete posts.</li>
                             <li>jQueary and JavaScript</li>

@@ -15,8 +15,8 @@
                 <div id="tabs-1">
                     <ul class="home-list">
                         <li>It's a stepping stone to future goals</li>
-                        <li>Expand on previous experience, fill in some gaps, and get a sense of direction on what else to learn</li>
-                        <li>Aquire the credibility that comes with certification & experience</li>
+                        <li>Expand on previous experience, fill in some gaps, while continuing to learn</li>
+                        <li>Develop the credibility that comes with certification & experience</li>
                         <li>Programming is a skill that is increasingly in demand</li>
                         <li>Job and freelancing opportunities</li>
                         <li>Possiblities to work remotely at times</li>
@@ -54,8 +54,7 @@
                 </div>
                 <div id="tabs-4">
                     <ul class="home-list">
-                        <li>Gain valuable work experience with entrepreneurial minded people developing online based platforms</li>
-                        <li>Develop premium domains in my portfolio into revenue generating businesses</li>
+                        <li>Gain valuable work experience with entrepreneurial companies developing online based platforms</li>
                         <li>Cover (almost) every Tool song on the drums and post it on YouTube</li>
                         <li>Buy property in Sicamous B.C.</li>
                         <li>Be alive long enough to see the Oilers win the Stanley Cup again</li>

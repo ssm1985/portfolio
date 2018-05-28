@@ -5,11 +5,16 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="home-content">
-                <h3>Spencer - A Definition</h3>
-                <h5>Courtesy of <a href="https://www.urbandictionary.com">Urban Dictionary</a></h5>
-                <h6>Edited by Spencer McLeod</h6>
-                <p>A really genuine guy. By far the most impressive guy you could meet. His qualities consist of being intelligent, clever, <span>aggressive</span>, creative, and loving. Spencer knows how to compose a hell of a <span>song</span> website, and shreds on his <span>guitar</span> keyboard like it's the last thing he'll do. Don't be surprised if you see him on tv one day. Did I mention he's a sexy son of a gun? Roughly around 6ft tall, with a built body.</p>
-                <a href="https://www.urbandictionary.com/define.php?term=spencer">See more edgy definitions.</a>
+              <br>
+                <ul class="home-list">
+                  <li>With a Web Developer Certification from SAIT (2018) & BSc in Electrical Engineering from the University of Calgary (2015), Spencer is well a well rounded individual looking to use his skills to master Web Development.</li>
+                  <br>
+                  <li>Completed four month internship with a digital advertising technology company, <a href="https://www.eltoro.com">El Toro</a> in Louisville, KY, USA. Spencer had to work independently to solve issues but with a highly advanced support team ready to assist if needed.</li>
+                  <br>
+                  <li>Spencer does not have your typical approach to a portfolio site or <a href="https://www.linkedin.com/in/spencer-mcleod">LinkedIn profile</a>. Therefor he is looking for non-typical job opportunities.</li>
+                  <br>
+                  <li>Full Stack opportunities are preferred.</li>
+                </ul>
             </div>
             <!-- <div class="home-content">
               <ul>
