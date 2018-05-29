@@ -18,6 +18,8 @@
                     <label id="message">Message:</label>
                     <textarea id="message" name="message" style="width: 100%; height: 200px;"></textarea>
                 </div>
+                <div class="g-recaptcha" data-sitekey="6LcnIlwUAAAAAHeWbeTmeO3gxceD2KrQ-0VHoxTY"></div>
+                <br>
                 <input type="submit" value="Send Message">
             </form>
         </div>

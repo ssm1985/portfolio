@@ -21,7 +21,8 @@ class HomePageController extends Controller
         $this->validate($request, [
             'email'=>'required|email',
             'message'=>'min:1',
-            'subject'=>'min:3'
+            'subject'=>'min:3',
+            'g-recaptcha-response' => 'required|captcha'
         ]);
         $data = array(
             'email'=>$request->email,
