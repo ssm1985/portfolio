@@ -23,7 +23,7 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="project domainbrains-search">
-                <a href="http://www.search.domainbrains.com">
+                <a href="http://search.domainbrains.com/">
                     <div class="slider">
                         <h4>Search.DomainBrains.com</h4>
                         <p>Details...</p>
