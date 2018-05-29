@@ -27,5 +27,6 @@
     </div>
     <div class="column large-4 medium-4 small-12 footer-block">
         <a href="https://www.linkedin.com/in/spencer-mcleod"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+        <a href="https://github.com/ssm1985"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
     </div>
 </footer>
