@@ -4,6 +4,19 @@
     {{-- <h1>Hi, talk nerdy to me.</h1> --}}
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <div class="home-image">
+
+            </div>
+            <br>
+            <div class="downloads">
+                <h3>Downloads</h3>
+                <ul class="home-list">
+                    <li><a href="/img/El Toro - Certificate.JPG">El Toro Certificate of Completion</a></li>
+                    <li><a href="/img/El Toro - Letter of Recognition.JPG">El Toro Letter of Recognition</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="home-content">
               <br>
                 <ul class="home-list">
@@ -15,17 +28,6 @@
                   <br>
                   <li>Full Stack opportunities are preferred.</li>
                 </ul>
-            </div>
-            <!-- <div class="home-content">
-              <ul>
-                <li>Full Stack Web Developer</li>
-                <li></li>
-              </ul>
-            </div> -->
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div class="home-image">
-
             </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">

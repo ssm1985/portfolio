@@ -8912,6 +8912,18 @@ em {
   height: 300px;
 }
 
+.downloads h3 {
+  text-align: center;
+}
+
+.downloads {
+  margin: 5%;
+  padding: 5%;
+  border: 2px solid #20393F;
+  border-radius: 2px;
+  /* background-color: #99BFA3; */
+}
+
 .home-content span {
   text-decoration: line-through;
 }
