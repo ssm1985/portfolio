@@ -8936,6 +8936,20 @@ em {
   list-style-type: circle;
 }
 
+.inside {
+  padding-left: 2em;
+}
+
+.ide-image {
+  background: url("/img/Spencer-McLeod's-IDE-decreased-size.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
 .twitter iframe {
   display: inline;
 }

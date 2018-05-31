@@ -2,15 +2,35 @@
 
 @section('content')
     <h1>About</h1>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="ide-image">
+
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <h3>My IDE</h3>
+            <ul class="home-list">
+              <li>An old 27" Citizen TV as a second monitor</li>
+              <li>Asus Republic of Gamers Laptop:</li>
+              <ul class="home-list inside">
+                <li>Intel Core i7 7700HQ @ 2.8GHz</li>
+                <li>16GB RAM</li>
+                <li>1TB HD & 128GB SSD</li>
+                <li>Ubuntu 18.04 LTS & Windows 10</li>
+              </ul>
+              <li>Text Editor of Choice: Atom</li>
+              <li>CLI Tool: <a href="https://gnometerminator.blogspot.com/p/introduction.html" target="_blank">Terminator</a></li>
+            </ul>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div id="tabs">
                 <ul class="row">
                     <li class="col-xs-12 col-sm-5 col-md-4 col-lg-2"><a href="#tabs-1">Why Web Development?</a></li>
-                    <li class="col-xs-12 col-sm-5 col-md-4 col-lg-2"><a href="#tabs-2">What I Learned</a></li>
-                    <li class="col-xs-12 col-sm-5 col-md-4 col-lg-2"><a href="#tabs-3">Complimentary Skills</a></li>
-                    <li class="col-xs-12 col-sm-5 col-md-4 col-lg-2"><a href="#tabs-4">Future Goals</a></li>
+                    <li class="col-xs-12 col-sm-5 col-md-4 col-lg-2"><a href="#tabs-2">Future Goals</a></li>
                 </ul>
                 <div id="tabs-1">
                     <ul class="home-list">
@@ -24,35 +44,6 @@
                     </ul>
                 </div>
                 <div id="tabs-2">
-                  <h4>SAIT Web Developer Fast-Track (Sept. 2017 - Dec. 2017):</h4>
-                    <ul class="home-list">
-                        <li>Applying JavaScript and an introduction to common JS libraries & frameworks</li>
-                        <li>Responsive design</li>
-                        <li>The MVC architectural pattern (Laravel)</li>
-                        <li>Adobe Photoshop & Illustrator</li>
-                        <li>Version Control (GIT)</li>
-                        <li>UI/UX theory</li>
-                        <li>Introduction to Google Cloud & AWS</li>
-                        <li>...and much more...</li>
-                    </ul>
-                  <h4>ElToro.com Internship - Louisville, KY, USA (Jan. 2018 - April 2018):</h4>
-                    <ul class="home-list">
-                        <li>Extensive use of full stack web development tools including Meteor JS, React JS, Node JS, Git, MongoDB, Robo 3T, and Bootstrap</li>
-                        <li>Required to work with many various NPM packages including ReactTable, Vazco Uniforms, and Simple Schema</li>
-                        <li>Ubuntu</li>
-                        <li>...and much more...</li>
-                    </ul>
-                </div>
-                <div id="tabs-3">
-                    <ul class="home-list">
-                        <li>C/C++</li>
-                        <li>SEO</li>
-                        <li>Domain names as they relate to marketing & business as opposed to I.T.</li>
-                        <li>Audio production</li>
-                        <li>BSc. in Electrical Engineering (University of Calgary - 2015)</li>
-                    </ul>
-                </div>
-                <div id="tabs-4">
                     <ul class="home-list">
                         <li>Gain valuable work experience with entrepreneurial companies developing online based platforms</li>
                         <li>Cover (almost) every Tool song on the drums and post it on YouTube</li>

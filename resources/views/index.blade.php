@@ -3,7 +3,7 @@
 @section('content')
     {{-- <h1>Hi, talk nerdy to me.</h1> --}}
     <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="home-image">
 
             </div>
@@ -16,9 +16,10 @@
                 </ul>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="home-content">
-              <br>
+                <h3>Summary</h3>
+                <br>
                 <ul class="home-list">
                   <li>With a Web Developer Certification from SAIT (2018) & BSc in Electrical Engineering from the University of Calgary (2015), Spencer is a well rounded individual looking to use his skills to master Web Development.</li>
                   <br>
@@ -30,7 +31,67 @@
                 </ul>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div id="tabs">
+                <ul class="row">
+                    <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="#tabs-1">What I Learned</a></li>
+                    <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="#tabs-2">Other Skills</a></li>
+                    <li class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a href="#tabs-3">This Site</a></li>
+                </ul>
+                <div id="tabs-1">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h4>SAIT Web Developer Fast-Track (Sept. 2017 - Dec. 2017):</h4>
+                            <ul class="home-list">
+                                <li>JavaScript</li>
+                                <li>Responsive design</li>
+                                <li>The MVC architectural pattern (Laravel/PHP)</li>
+                                <li>Adobe Photoshop & Illustrator</li>
+                                <li>GIT</li>
+                                <li>UI/UX theory</li>
+                                <li>Google Cloud & AWS</li>
+                                <li>...and much more...</li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <h4>ElToro.com Internship - Louisville, KY, USA (Jan. 2018 - April 2018):</h4>
+                            <ul class="home-list">
+                                <li>Ubuntu OS & Linux CLI</li>
+                                <li>More JavaScript</li>
+                                <li>Meteor JS</li>
+                                <li>React JS</li>
+                                <li>Node JS</li>
+                                <li>GIT CLI</li>
+                                <li>MongoDB & Robo 3T</li>
+                                <li>...and much more...</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabs-2">
+                    <ul class="home-list">
+                        <li>C/C++</li>
+                        <li>SEO</li>
+                        <li>Domain names as they relate to marketing & business as opposed to I.T.</li>
+                        <li>Audio production</li>
+                        <li>BSc. in Electrical Engineering (University of Calgary - 2015)</li>
+                    </ul>
+                </div>
+                <div id="tabs-3">
+                    <h4>About this site:</h4>
+                    <ul class="home-list">
+                        <li>Built on Laravel PHP Framework</li>
+                        <li>CRUD application (blog)</li>
+                        <li>JavaScript & jQuery</li>
+                        <li>Hosted on AWS Elastic Beanstalk</li>
+                        <li>See <a href="/projects">projects page</a> to see more work</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
             <div class="place-holder">
 
             </div>
