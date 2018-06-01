@@ -80,13 +80,12 @@
                     </ul>
                 </div>
                 <div id="tabs-3">
-                    <h4>About this site:</h4>
                     <ul class="home-list">
                         <li>Built on Laravel PHP Framework</li>
                         <li>CRUD application (blog)</li>
                         <li>JavaScript & jQuery</li>
                         <li>Hosted on AWS Elastic Beanstalk</li>
-                        <li>See <a href="/projects">projects page</a> to see more work</li>
+                        <li>See <a id="projects-link" href="/projects">projects page</a> for more work</li>
                     </ul>
                 </div>
             </div>
