@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    @if(Auth::user())
+    <!-- @if(Auth::user()) -->
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -75,7 +75,7 @@
                 </div>
             </div>
         </div>
-    @else
+    <!-- @else
         <h4 id="register-page">HAHAHAHAHAHAHA no.</h4>
-    @endif
+    @endif -->
 @endsection
